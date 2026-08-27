@@ -19,6 +19,13 @@ Using **Geometric Brownian Motion**, the engine executes 2,000 randomized market
   * **Sharpe Ratio:** Evaluates risk-adjusted returns relative to a risk-free rate.
   * **95% Value at Risk (VaR):** Predicts worst-case loss scenarios at a 95% confidence interval.
   * **5-Year Loss Probability:** Quantifies the exact percentage chance of ending below starting capital.
+### 📊 Simulation Output Examples
+
+| Default Allocation | Stocks Portfolio Output |
+|:---:|:---:|
+| <img width="1035" height="741" alt="preview" src="https://github.com/user-attachments/assets/e29aa81e-94d0-4c57-a4ae-741048a26bb7" />
+| <img width="1048" height="742" alt="output_stocks" src="https://github.com/user-attachments/assets/3462556a-4ae1-4cea-9a11-cca61e5bd695" /> |
+
 
 ---
 
