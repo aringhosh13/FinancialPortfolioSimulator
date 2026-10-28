@@ -17,7 +17,11 @@ From the project folder in PowerShell, run:
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\run-dashboard.ps1
 ```
 
-The script compiles the Java files and opens the dashboard. To create a screenshot with a different stock allocation, use `-Preview -Stocks 100 -PreviewPath .\screenshots\all-stocks.png`.
+The script compiles the Java files and opens the dashboard. To save a screenshot for a ₹25,000 investment over 3 years, run:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\run-dashboard.ps1 -Preview -Amount 25000 -Years 3 -PreviewPath .\screenshots\investment-25000-3-years.png
+```
 
 ---
 
@@ -31,9 +35,9 @@ The script compiles the Java files and opens the dashboard. To create a screensh
   * **5-Year Loss Probability:** Quantifies the exact percentage chance of ending below starting capital.
 ### 📊 Simulation Output Examples
 
-| Default mix (60% stocks) | All stocks | All bonds |
+| ₹10,000 for 5 years | ₹25,000 for 3 years | ₹50,000 for 10 years |
 |:---:|:---:|:---:|
-| <img width="300" alt="Default 60/40 portfolio dashboard" src="screenshots/portfolio-simulator.png"> | <img width="300" alt="All-stocks portfolio dashboard" src="screenshots/all-stocks.png"> | <img width="300" alt="All-bonds portfolio dashboard" src="screenshots/all-bonds.png"> |
+| <img width="300" alt="Dashboard with a 10,000 rupee investment over 5 years" src="screenshots/portfolio-simulator.png"> | <img width="300" alt="Dashboard with a 25,000 rupee investment over 3 years" src="screenshots/investment-25000-3-years.png"> | <img width="300" alt="Dashboard with a 50,000 rupee investment over 10 years" src="screenshots/investment-50000-10-years.png"> |
 
 
 ---
