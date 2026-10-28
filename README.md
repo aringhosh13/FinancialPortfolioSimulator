@@ -26,6 +26,10 @@ Using **Geometric Brownian Motion**, the engine executes 2,000 randomized market
 | <img width="1035" height="741" alt="preview" src="https://github.com/user-attachments/assets/e29aa81e-94d0-4c57-a4ae-741048a26bb7" />
 | <img width="1048" height="742" alt="output_stocks" src="https://github.com/user-attachments/assets/3462556a-4ae1-4cea-9a11-cca61e5bd695" /> |
 
+### Current dashboard
+
+![Financial Portfolio Simulator dashboard](screenshots/portfolio-simulator.png)
+
 
 ---
 
